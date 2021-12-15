@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+
+
+body {
+  background: linear-gradient(180deg, rgba(223,255,249,1) 50%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);
+  background-repeat: no-repeat;
+  font-family: 'GFS Neohellenic', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4em;
+  margin-top: 0.5em;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1em;
+}
+
+.submit {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 10%;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2 {
+  padding-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 3em;
+  text-decoration: underline;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-list {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.5em;
+  text-align: center;
+  border: thick double skyblue;
+}
+
+@media (max-width: 768px){
+  body {
+    background: olive;
+    
+  }
+  member-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
+
+
+/* Ecran PC style */
+/* @media screen and (max-width: 768px){
+    
+  .
+} */
