@@ -7,6 +7,52 @@ body {
   font-family: 'GFS Neohellenic', sans-serif;
 }
 
+.cloud {
+  top: 20%;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  background: white;
+  border-radius: 1000px;
+  animation: clouds 8s infinite linear;
+  z-index: -1;
+}
+
+.cloud::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 10%;
+  width: 50%;
+  height: 150%;
+  background: white;
+  border-radius: 50%;
+}
+
+.cloud::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: 20%;
+  width: 30%;
+  height: 100%;
+  background: white;
+  border-radius: 50%;
+}
+
+@keyframes clouds {
+  from {
+    left: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    left: 100%;
+    transform: translateX(0%);
+  }
+}
+
 header {
   text-align: center;
 }
@@ -14,6 +60,7 @@ header {
 header h1 {
   font-size: 4em;
   margin-top: 0.5em;
+  text-shadow: 6px 4px skyblue;
 }
 
 form input {
@@ -25,6 +72,7 @@ form input {
   padding: 0.5em;
   font-size: 1em;
   border-radius: 10%;
+  box-shadow: 5px 3px 3px skyblue;
 }
 
 h1, h2 {

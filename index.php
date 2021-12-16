@@ -19,6 +19,7 @@ $names = $statement->fetchAll();
 ?>
 <!-- Header section -->
 <header>
+  <div class="cloud"></div>
 <link rel="stylesheet" href="style.css">
   <h1>
     Les Argonautes
@@ -27,7 +28,7 @@ $names = $statement->fetchAll();
 
 <!-- Main section -->
 <body>
-  
+
   <!-- New member form -->
   <h2>Ajouter un(e) Argonaute</h2>
   <form class="new-member-form" method="post">
