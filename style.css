@@ -5,6 +5,7 @@ body {
   background: linear-gradient(180deg, rgba(223,255,249,1) 50%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);
   background-repeat: no-repeat;
   font-family: 'GFS Neohellenic', sans-serif;
+  box-sizing: border-box;
 }
 
 header {
@@ -57,24 +58,20 @@ label {
   border: thick double skyblue;
 }
 
-@media (max-width: 768px){
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px){
   body {
     background: olive;
     
   }
-  member-list {
+  .member-list {
     grid-template-columns: 1fr;
   }
 }
 
-/* footer {
-  position: absolute;
-  bottom: 0;
-} */
 
 
-/* Ecran PC style */
-/* @media screen and (max-width: 768px){
-    
-  .
-} */
