@@ -73,6 +73,7 @@ form input {
   font-size: 1em;
   border-radius: 10%;
   box-shadow: 5px 3px 3px skyblue;
+  pointer-events: all;
 }
 
 h1, h2 {
@@ -82,6 +83,7 @@ h1, h2 {
 
 h2 {
   padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 label {
